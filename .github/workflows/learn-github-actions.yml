@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: serial-jobs
 on: [push]
 jobs:
   setup:
