@@ -1,8 +1,5 @@
 name: serial-jobs
-on: 
- push:
-  paths-ignore:
-      - 'Dockerfile'
+on: [push]
 jobs:
   setup:
     runs-on: ubuntu-latest
